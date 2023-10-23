@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunjan Sharma</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/e37613ffee.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo1"><span>G</span>unjan Sharma</h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="img/Resume.jpeg">Resume</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi , I'm <span>Gunjan Sharma</span> .<br> A passionate Full Stack React Developer <br> based in New Delhi, India 📍</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/coding.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                     <h3 class="sub-title">About Me</h3>
+                     <h1>A dedicated Full-Stack Developer based in New Delhi, India 📍</h1>
+                     <p>As a Junior Full-Stack Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, Node JS, Express and Mongo DB. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desiging Web interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>    
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>(2022-2024)</span><br>(B.C.A) at  Chaudhary Charan Singh  University</li>
+                            <li><span>(2020-2021)</span><br>12th - from J.M.S public school</li>
+                            <li><span>(2018-2020)</span><br>10th - from J.M.S public school</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+               
+                <div class="work">
+                    <img src="img/whether.jpg" >
+                    <div class="layer">
+                        <h3>WEATHER ⛅</h3>
+                        <p>A weather application that provides real-time weather updates and forecasts for various locations around the world.The real-time updates and 5-day forecasts ensure that users are always prepared for whatever weather conditions may come their way.
+                        </p>
+                        <a href="https://detectweather.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/password.jpg" >
+                    <div class="layer">
+                        <h3>PASSWORD GENERATOR 🔑</h3>
+                        <p>A password generator that creates strong, secure passwords for users. The password generator provides a quick and easy way to generate secure passwords that are difficult to crack, helping users protect their online accounts and personal information.
+                        </p>
+                        <a href="https://password-by-app.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="gmail">
+                        <p><i class="fa-solid fa-paper-plane"></i> <a href="https://mail.google.com/">gunjansharma995348@gmail.com</a> </p>
+                        <p><i class="fa-solid fa-square-phone"></i> 9599209644</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gunjan-sharma-82833628a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/gunjansh009"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="img/Resume.jpeg" class="btn btn2">Download Resume</a>
+                </div>
+              
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2023. All rights are reserved</p>
+        </div>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
+
